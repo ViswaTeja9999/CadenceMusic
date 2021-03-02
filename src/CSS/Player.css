@@ -1,0 +1,94 @@
+.playercontainer{
+    border: 0.5px solid white;
+    height: 100%;
+    width: 100%;
+    color: orange;
+    margin: 0px auto;
+    font-size: 10px;
+}
+
+.topicons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+}
+
+.artworkcontainer>img{
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    border: 0.3px solid orange;
+    border-radius: 10px; ;
+}
+
+.albumtitle{
+    text-align: center;
+    font-size: 8px;
+    margin-top: 5px;
+
+}
+
+.seektime{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+.seekbar{
+    width: 90%;
+    height: 20px;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+  .managebtn{
+    margin-top: 2px;
+    display: inline-flex;
+    float: right;
+      }
+
+.contronbtns{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.bottomicons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: space-between;
+}
+
+.volumecontrol{
+    margin: 5px;
+}
+
+.volumebar{
+    width: 100%;
+    height: 5px;
+    margin-top: 0px;
+}
+
+.animate-track {
+    background: rgb(204, 204, 204);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(0%);
+    pointer-events: none;
+  }
+

@@ -1,0 +1,16 @@
+*{
+    margin:0px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.bigcontainer1{
+    background-color:rgb(10, 21, 37);
+    display: flex;
+    height: 760px;
+    width: 100%;
+    overflow-x: auto;
+    flex-direction: row;
+    justify-content:space-around;
+    border-bottom: 1px solid white;
+    
+}

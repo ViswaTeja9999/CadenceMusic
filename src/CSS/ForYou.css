@@ -1,0 +1,20 @@
+.uicontainer2{
+    height: 100%;
+    width: 100%;
+    color: white;
+    margin: 0px;
+    display: grid;
+}
+
+.container100{
+    width: 100%;
+    margin-left: 15px;
+    height: 700px;
+    overflow: auto;
+}
+.pageheading{
+    text-align: left;
+    padding-left: 20px;
+    height: 40px;
+    border-bottom: 0.2px solid gray;
+}

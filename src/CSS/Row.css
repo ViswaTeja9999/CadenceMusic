@@ -1,0 +1,27 @@
+.rowcontainer{
+    height: 250px;
+    width: 95%;
+    border-bottom: 1px solid orange;
+    font-size: 8px;
+}
+.toptext{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.toptext>button{
+    background-color: transparent;
+    border: none;
+    color: wheat;
+}
+
+.imagecontainer{
+    height: 120px;
+    width:120px;
+    margin-top: 10px;
+}
+.songdetails{
+    width: 100%;
+    overflow-x: scroll;
+}
